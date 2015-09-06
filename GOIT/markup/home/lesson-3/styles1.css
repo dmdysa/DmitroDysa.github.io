@@ -8,3 +8,24 @@ color:white;}
 p:first-letter {color:red;
   font-size:30px;
 font-weight: bold;}
+
+
+#allotment.plants-list h2 {
+  color: orange;
+}
+
+#warehouse.plants-list h2 {
+  color: blue;
+}
+
+#allotment .fruits-list {
+  color: grey;
+}
+
+.vegetables-list {
+  color: red;
+}
+
+#warehouse .fruits-list {
+  color: green;
+}
