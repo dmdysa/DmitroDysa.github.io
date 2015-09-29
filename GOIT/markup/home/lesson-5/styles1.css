@@ -27,7 +27,6 @@ a {
   display: inline-block;
 }
 
-
 .submenu {
   position: absolute;
   width: 100%;
@@ -44,7 +43,6 @@ a {
   color: rgb(160, 169, 186);
   text-transform: capitalize;
 }
-
 
 .menu li:hover,
 .menu li:focus {
