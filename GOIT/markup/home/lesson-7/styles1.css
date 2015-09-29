@@ -1,4 +1,4 @@
-.sivtsev {
+.top {
   width: 400px;
   font-family: arial, sans-serif;
   font-size: 95px;
@@ -8,17 +8,17 @@
   margin: auto;
 }
 
-.sivtsev p {
+.top p {
   text-align: justify;
 }
 
-.sivtsev p::after {
+.top p::after {
   content: '';
   display: inline-block;
   width: 100%;
 }
 
-.uline {
+.bottom {
   border-bottom: 2px solid;
   border-color: rgba(255, 0, 0, 0.2);
   position: relative;
