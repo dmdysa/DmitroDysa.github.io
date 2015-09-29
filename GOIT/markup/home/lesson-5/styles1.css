@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  background-color: rgb(26, 164, 255);
+}
+
+nav {
+  background-color: rgb(26, 164, 255);
+  font-family: Impact, sans-serif;
+  width: 900px;
+  text-transform: uppercase;
+  line-height: 2em;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  padding: 0 10px;
+  cursor: pointer;
+  color: #FFF;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+
+.submenu {
+  position: absolute;
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+  left: 0;
+  white-space: nowrap;
+  font-size: 12px;
+  display: none;
+  box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.submenu>li>a {
+  color: rgb(160, 169, 186);
+  text-transform: capitalize;
+}
+
+
+.menu li:hover,
+.menu li:focus {
+  background-color: rgb(238, 238, 238);
+}
+
+.menu li:hover a,
+.menu li:focus a {
+  color: rgb(160, 169, 186);
+}
+
+.menu li:hover .submenu,
+.menu li:focus .submenu {
+  display: block;
+}
