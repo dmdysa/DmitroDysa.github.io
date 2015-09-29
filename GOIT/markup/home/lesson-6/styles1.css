@@ -1,4 +1,4 @@
-#full_block
+#block
     {
     position: fixed;
     left: 15%;
@@ -15,7 +15,7 @@ h1
     margin-right: 100px;
     white-space: nowrap;
     }
-#main1
+#first
     {
     position: relative;
     z-index: 2;
@@ -90,7 +90,7 @@ h1
     text-align: center;
     padding: 20px;
 }
-.price
+.cost
 {
     background-color: white;
     color: #35495a;
