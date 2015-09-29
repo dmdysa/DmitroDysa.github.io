@@ -1,21 +1,40 @@
-li {
-    color: Menu;
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #A020F0;
+    line-height: 1.4;
+    font-size: 1.1em;
+    font-family: Economica, sans-serif;
+}
+
+.top-menu {
+    width: 900px;
+    margin: 0 auto;
+    color: #FFF;
+    transform: scaleY(1.2);
+}
+
+.top-menu a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.top-menu li {
     display: inline-block;
-    width: 90px;
-    height: 20px;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-transform: uppercase;
-    font-family: impact, arial, sans-serif;
+}
+
+.top-menu a {
+    padding: 0 25px;
     cursor: pointer;
 }
-li:hover {
-    background-color: #eeeeee;
-    color: #a1a1a1;
-}
-ul {
-    width: 900px;
-    background-color: #a954fe;
-    margin: auto;
+
+.top-menu a:hover,
+.top-menu a:focus {
+    background-color: #EEEEEE;
+    color: #A8A4A1;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    line-height: 1.3;
 }
